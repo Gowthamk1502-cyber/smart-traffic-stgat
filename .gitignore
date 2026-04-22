@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset/cache artifacts
+data/hf_cache/
+data/cached_graph.npz
+
+# Training outputs
+outputs/*.pt
+outputs/*.pth
+outputs/*.ckpt
+outputs/*.log
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.csv
+
+# Local environment files
+.env
+.env.*
+
+# IDE/system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
